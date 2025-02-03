@@ -1,5 +1,5 @@
 # National Identity Card Verification System
-
+![NID Verification System](https://github.com/shahin0075/NationalIdentityCardVerificationSystem/blob/master/nid.png)
 This project is a web-based **National Identity Card Verification System** for verifying NID (National Identity) numbers in Bangladesh. It utilizes an API to verify the authenticity of a given NID number and displays the results to the user in a neat and user-friendly interface.
 
 ## Features
@@ -52,9 +52,12 @@ To get started with this project, follow these steps:
 - **Font Awesome**: For icons.
 - **html2pdf.js**: For generating PDF files from the result data.
 
+## API Integration
 
+This project uses the following API for NID verification:
 
-
+- **API URL**: `http://api.fast-seba.xyz/VerifyNID/half-nid/?nid={nid}&dob={dob}`
+  - Replace `{nid}` with the NID number and `{dob}` with the date of birth in `YYYY-MM-DD` format.
 
 ## Dark Mode Toggle
 

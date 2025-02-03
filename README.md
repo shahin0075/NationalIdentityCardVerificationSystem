@@ -1,79 +1,81 @@
-# NID Verification - বাংলাদেশ নির্বাচন কমিশন
+# National Identity Card Verification System
 
-## Overview
-
-This is a **NID Verification System** built for verifying National Identification numbers (NID) in Bangladesh. It connects to a third-party API and verifies the NID number and its associated details, such as the name, gender, date of birth, and address. The application provides a smooth, user-friendly interface with light and dark mode options, PDF generation, and printing functionalities.
-
----
+This project is a web-based **National Identity Card Verification System** for verifying NID (National Identity) numbers in Bangladesh. It utilizes an API to verify the authenticity of a given NID number and displays the results to the user in a neat and user-friendly interface.
 
 ## Features
 
-- **NID Validation**: Verifies 10-digit NID numbers.
-- **Date of Birth Validation**: Ensures the correct date format (YYYY-MM-DD).
-- **User Information Display**: Displays verified information such as Name, Gender, Date of Birth, and Addresses.
-- **Light & Dark Mode Toggle**: Switch between light and dark themes.
-- **Print**: Ability to print the verification results.
-- **PDF Generation**: Allows exporting the verification result as a PDF.
-- **Responsive UI**: Fully responsive design with an intuitive interface.
-- **Proxy Support**: Supports multiple proxy servers to bypass network restrictions.
+- **NID Number Verification**: Input NID number (10 digits) and date of birth for verification.
+- **API Integration**: Connects to an external API to verify NID and fetch relevant data.
+- **Responsive Design**: The app is fully responsive, ensuring it works well on mobile, tablet, and desktop devices.
+- **Dark Mode**: Users can toggle between light and dark mode for a more comfortable viewing experience.
+- **PDF Generation**: Users can generate a PDF of the verification results.
+- **Print Option**: Users can print the verification results directly from the application.
+- **User-Friendly Interface**: The design is intuitive and simple, allowing easy navigation and quick verification.
 
----
+## Preview Images
 
-## How to Use
+Here are some preview images of the application:
 
-1. **Enter NID Number**: Enter the 10-digit NID number.
-2. **Enter Date of Birth**: Select the correct date of birth.
-3. **Click on 'যাচাই করুন'**: Click the button to verify the NID number.
-4. **View Results**: If the NID is valid, the personal details will be displayed.
-5. **Switch Themes**: Use the theme toggle button to switch between light and dark modes.
-6. **Print or Download PDF**: Use the respective buttons to print or save the results as a PDF.
+![NID Verification System](https://github.com/shahin0075/NationalIdentityCardVerificationSystem/blob/master/nid.png)
 
----
+![Screenshot 1](https://github.com/shahin0075/NationalIdentityCardVerificationSystem/blob/master/Apple%20iPhone%2016%20Pro%20Max%20Screenshot%201.png)
+
+![Screenshot 2](https://github.com/shahin0075/NationalIdentityCardVerificationSystem/blob/master/Apple%20iPhone%2016%20Pro%20Max%20Screenshot%202.png)
+
+![Screenshot 3](https://github.com/shahin0075/NationalIdentityCardVerificationSystem/blob/master/Apple%20iPhone%2016%20Pro%20Max%20Screenshot%203.png)
+
+![Screenshot 4](https://github.com/shahin0075/NationalIdentityCardVerificationSystem/blob/master/Apple%20iPhone%2016%20Pro%20Max%20Screenshot%204.png)
 
 ## Installation
 
-### Prerequisites
-Make sure you have the following installed:
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- Internet access for API requests
+To get started with this project, follow these steps:
 
-### Steps to Run the App Locally
-
-1. Clone this repository:
+1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/nid-verification.git
+    git clone https://github.com/shahin0075/NationalIdentityCardVerificationSystem.git
     ```
 
-2. Open the `index.html` file in a web browser of your choice.
+2. **Navigate to the Project Directory**
+    ```bash
+    cd NationalIdentityCardVerificationSystem
+    ```
 
----
+3. **Open the `index.html` File**
+    Open the `index.html` file in your browser to view the application.
 
 ## Technologies Used
 
-- **HTML5**: For the structure and layout of the application.
-- **CSS3**: For styling and responsive design.
-- **JavaScript (Vanilla)**: For functionality and interactivity.
-- **Bootstrap 5**: For responsive grid layout and pre-built components.
-- **Font Awesome**: For icons and visual elements.
-- **html2pdf.js**: For generating PDF documents.
-- **API**: Utilizes an external API to validate NID numbers.
+- **HTML5**: Markup for the page structure.
+- **CSS3**: Styling for the user interface, with custom styles for light and dark modes.
+- **JavaScript**: Handles form submission, API calls, and DOM manipulation.
+- **Bootstrap 5**: For responsive layout and styling.
+- **Font Awesome**: For icons.
+- **html2pdf.js**: For generating PDF files from the result data.
 
----
 
-## Contributing
 
-We welcome contributions! Feel free to fork the repository and submit a pull request with your improvements. Please ensure your changes don't break the existing functionality and are well-tested.
 
----
 
-## License
+## Dark Mode Toggle
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The application includes a **dark mode** feature that allows users to switch between light and dark themes for better readability depending on their preference.
 
----
+## How It Works
+
+1. **Enter NID Number**: The user enters a 10-digit NID number and their date of birth.
+2. **Submit the Form**: Upon submission, the form sends a request to the API to verify the NID number and fetch personal details such as name, gender, date of birth, address, etc.
+3. **Display Results**: The verification results are displayed, showing details about the NID holder.
+4. **PDF or Print**: The user can either print the results or download a PDF version of the verification.
+
+## Contribution
+
+Feel free to fork the repository, make changes, and submit a pull request. All contributions are welcome!
 
 ## Developer
 
-**Developed by**: Mohammad Sheikh Shahinur Rahman, Software Engineer, IT Amadersomaj Inc.
+**Mohammad Sheikh Shahinur Rahman**  
+Software Engineer, IT Amadersomaj Inc.
 
-For any questions or suggestions, feel free to contact me via email or GitHub.
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
